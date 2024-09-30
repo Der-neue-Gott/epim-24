@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <title>РАСПИСАНИЕ [ЕПИМ-1-24]</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="day-display" id="day-display"></div>
+
+      <div class="cards-container">
+
+
+        <div class="card" data-day="Понедельник">
+          <div class="front">Понедельник</div>
+          <div class="back">
+            <div class="schedule-item">ВЕБ<br>16:40 - 18:10</div>
+          </div>
+        </div>
+
+        <div class="card" data-day="Вторник">
+          <div class="front">Вторник</div>
+          <div class="back">
+            <div class="schedule-item">Теория автоматов<br>16:40 - 18:10</div>
+            <div class="schedule-item">Английский<br>18:20 - 19:50</div>
+          </div>
+        </div>
+
+        <div class="card" data-day="Среда">
+          <div class="front">Среда</div>
+          <div class="back">
+            <div class="schedule-item">Обработка сигналов<br>16:40 - 18:10</div>
+          </div>
+        </div>
+
+        <div class="card" data-day="Четверг">
+          <div class="front">Четверг</div>
+          <div class="back">
+            <div class="schedule-item">Теория автоматов<br>20:00 - 21:30</div>
+          </div>
+        </div>
+
+        <div class="card" data-day="Пятница">
+          <div class="front">Пятница</div>
+          <div class="back">
+            <div class="schedule-item">Проф. поведение<br>16:40 - 18:10</div>
+            <div class="schedule-item">Обработка сигналов<br>20:00 - 21:30</div>
+          </div>
+        </div>
+
+        <div class="card" data-day="Суббота">
+          <div class="front">Суббота</div>
+          <div class="back">
+            <div class="schedule-item">Психология<br>10:00 - 11:30</div>
+            <div class="schedule-item">Межкультурная коммуникация<br>11:40 - 13:10</div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <div id="popup-window" class="popup-window">
+      <div class="popup-content">
+        <span class="popup-close">&times;</span>
+        <h2 id="subject-title">Название предмета</h2>
+        <ul id="material-list">
+          <!-- list -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
