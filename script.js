@@ -41,7 +41,12 @@ const materials = {
     { title: 'Лекция 1', url: 'https://t.me/c/2493950303/15' },
     { title: 'Лекция 2', url: 'https://t.me/c/2493950303/16' },
     { title: 'Лекция 3', url: 'https://t.me/c/2493950303/13' },
-    { title: 'Лекция 4', url: 'https://t.me/c/2493950303/14' }
+    { title: 'Лекция 4', url: 'https://t.me/c/2493950303/14' },
+    { title: 'Сети Петри', url: 'https://t.me/c/2493950303/176' },
+    { title: 'Свойства сетей Петри', url: 'https://t.me/c/2493950303/178' },
+    { title: 'Задание сети Петри', url: 'https://t.me/c/2493950303/177' },
+    { title: 'Типовая по вариантам', url: 'https://t.me/c/2209505680/2328' },
+    { title: 'ПО для построения сетей Петри', url: 'https://t.me/c/2209505680/2326' }
   ],
   'Английский': [
     { title: 'Книга', url: 'https://t.me/c/2260810691/6' }
@@ -57,8 +62,8 @@ const materials = {
     { title: 'Гитхаб', url: 'https://github.com/verzunov/dsp' },
     { title: 'Самостоятельная работа 1', url: 'https://learning.imash.kg/mod/assign/view.php?id=513' }
   ],
-  'Проф. поведение': [
-    { title: 'Материалы отсутствуют', url: '#' }
+  'Организационное поведение': [
+    { title: 'Задание', url: 'https://t.me/c/2209505680/2593' }
   ],
   'Психология': [
     { title: 'Подключиться к лекции', url: 'https://us04web.zoom.us/j/2481446463?pwd=WmRkRkhweUhTdEJXWGJJQUtLblRNdz09' },
