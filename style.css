@@ -203,7 +203,7 @@ body {
 
 
 
-@media screen and (width <= 1535px) {
+@media screen and (min-width: 1600px) {
   .cards-container {
     flex-direction: column;
     gap: 10px;
