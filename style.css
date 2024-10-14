@@ -208,7 +208,7 @@ body {
 
 
 
-@media (width >= 1600px), (width <= 1080px) {
+@media (max-width: 1080px), (min-width: 1600px) {
   .cards-container {
     flex-direction: column;
     gap: 10px;
