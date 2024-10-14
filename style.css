@@ -30,14 +30,15 @@ body {
 .cards-container {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  flex-direction: column;
+  gap: 10px;
 
   & .card {
     transition: transform 0.6s, filter 0.6s;
   }
 
   &:hover .card {
-    filter: blur(2px);
+    filter: blur(1.5px);
   }
 
   & .card:hover {
@@ -50,8 +51,8 @@ body {
 .card {
   position: relative;
 
-  width: 15vw;
-  height: 40vh;
+  width: 60vw;
+  height: 10vh;
 
   background: #333;
   color: white;
@@ -78,7 +79,7 @@ body {
 
   & .back {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 
     background: #555;
@@ -156,7 +157,7 @@ body {
   transform: translate(-50%, -50%);
   z-index: 2;
 
-  width: 50vw;
+  width: 90vw;
   max-width: 500px;
 
   background-color: #444;
@@ -204,43 +205,4 @@ body {
   font-size: 1.5rem;
 
   cursor: pointer;
-}
-
-
-
-@media screen and (min-width: 1600px) {
-  .cards-container {
-    flex-direction: column;
-    gap: 10px;
-  
-    & .card {
-      transition: none;
-    }
-  
-    &:hover .card {
-      filter: none;
-    }
-  
-    & .card:hover {
-      transform: none;
-      filter: none;
-    }
-  }
-
-
-  .card {
-    width: 90vw;
-    height: 10vh;
-
-    transition: none;
-  
-    & .back {
-      flex-direction: row;
-    }
-  }
-
-
-  .popup-window {  
-    width: 90vw;
-  }
 }
