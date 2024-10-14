@@ -204,5 +204,40 @@ body {
 
 
 @media screen and (width <= 1023px) {
+  .cards-container {
+    height: 100vh;
+
+    flex-direction: column;
+    gap: 10px;
   
+    & .card {
+      transition: none;
+    }
+  
+    &:hover .card {
+      filter: none;
+    }
+  
+    & .card:hover {
+      transform: none;
+      filter: none;
+    }
+  }
+
+
+  .card {
+    width: 90vw;
+    height: 10vh;
+
+    transition: none;
+  
+    & .back {
+      flex-direction: row;
+    }
+  }
+
+
+  .popup-window {  
+    width: 90vw;
+  }
 }
