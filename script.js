@@ -46,7 +46,8 @@ const materials = {
     { title: 'Свойства сетей Петри', url: 'https://t.me/c/2493950303/178' },
     { title: 'Задание сети Петри', url: 'https://t.me/c/2493950303/177' },
     { title: 'Типовая по вариантам', url: 'https://t.me/c/2209505680/2328' },
-    { title: 'ПО для построения сетей Петри', url: 'https://t.me/c/2209505680/2326' }
+    { title: 'ПО для построения сетей Петри', url: 'https://t.me/c/2209505680/2326' },
+    { title: 'Практическая сетей Петри', url: 'https://t.me/c/2493950303/196' }
   ],
   'Английский': [
     { title: 'Книга', url: 'https://t.me/c/2260810691/6' }
@@ -60,10 +61,12 @@ const materials = {
     { title: 'Книга по сигналам 1', url: 'https://vk.com/wall-54530371_146152' },
     { title: 'Книга по сигналам 2', url: 'https://t.me/c/2446319002/31' },
     { title: 'Гитхаб', url: 'https://github.com/verzunov/dsp' },
-    { title: 'Самостоятельная работа 1', url: 'https://learning.imash.kg/mod/assign/view.php?id=513' }
+    { title: 'Самостоятельная работа 1', url: 'https://learning.imash.kg/mod/assign/view.php?id=513' },
+    { title: 'Видео-история быстрого преобразования Фурье', url: 'https://www.youtube.com/watch?v=eQlSvfUuQNs&t=469s' }
   ],
   'Организационное поведение': [
-    { title: 'Задание', url: 'https://t.me/c/2209505680/2593' }
+    { title: 'Задание', url: 'https://t.me/c/2209505680/2593' },
+    { title: 'Подключиться к лекции', url: 'https://bit.ly/3ZfppLf' }
   ],
   'Психология': [
     { title: 'Подключиться к лекции', url: 'https://us04web.zoom.us/j/2481446463?pwd=WmRkRkhweUhTdEJXWGJJQUtLblRNdz09' },
