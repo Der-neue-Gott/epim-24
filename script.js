@@ -1,12 +1,12 @@
 const cards = document.querySelectorAll('.card');
 const dayDisplay = document.getElementById('day-display');
 
-const days = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'];
+const days = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'];
 const today = new Date().getDay();
-dayDisplay.textContent = days[today - 1].toUpperCase() || 'Выходной';
+dayDisplay.textContent = days[today].toUpperCase();
 
 cards.forEach(card => {
-  if (card.dataset.day === days[today - 1]) {
+  if (card.dataset.day === days[today]) {
     card.classList.add('today');
   }
 
