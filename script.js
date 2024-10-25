@@ -70,8 +70,12 @@ const materials = {
   ],
   'Психология': [
     { title: 'Подключиться к лекции', url: 'https://us04web.zoom.us/j/2481446463?pwd=WmRkRkhweUhTdEJXWGJJQUtLblRNdz09' },
-    { title: 'Задания (классрум)', url: 'https://classroom.google.com/c/NjAyMzg3MTgwMjYz?cjc=tlysbeo' },
-    { title: 'Материалы (гугл диск)', url: 'https://drive.google.com/drive/u/1/folders/1tGJwQDsqmzdAUtw9tENSWR6-kjRGMssx' }
+    { title: 'Присоединиться к курсу (классрум)', url: 'https://classroom.google.com/c/NjAyMzg3MTgwMjYz?cjc=tlysbeo' },
+    { title: 'Материалы (гугл диск)', url: 'https://drive.google.com/drive/u/1/folders/1tGJwQDsqmzdAUtw9tENSWR6-kjRGMssx' },
+    { title: 'Задание 1', url: 'https://classroom.google.com/u/1/c/NjAyMzg3MTgwMjYz/a/NjAyMzg3NDg0NTAx/details' },
+    { title: 'Задание 2', url: 'https://classroom.google.com/u/1/c/NjAyMzg3MTgwMjYz/a/NjAyMzg3NTY2Mjg0/details' },
+    { title: 'Задание 3', url: 'https://classroom.google.com/u/1/c/NjAyMzg3MTgwMjYz/a/NjAyMzg3NTM1MjA5/details' },
+    { title: 'Задание 4 (любая из тем)', url: 'https://classroom.google.com/u/1/c/NjAyMzg3MTgwMjYz/a/NjAyMzg4MTczNDU1/details' }
   ],
   'Межкультурная коммуникация': [
     { title: 'Революция ИИ', url: 'https://interpreted.d3.ru/revoliutsiia-iskusstvennogo-intellekta-684922/?sorting=rating' },
