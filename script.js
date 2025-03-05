@@ -54,7 +54,7 @@ const materials = {
   ],
   'Методология программной инженерии': [
     { title: 'Основы программной инженерии (презентация)', url: 'https://t.me/c/2209505680/7508' },
-    { title: 'Группа в ВЦ', url: 'https://chat.whatsapp.com/DzFR6mVsxTuGWQiiuiPAtE' },
+    { title: 'Группа в ВЦ', url: 'https://chat.whatsapp.com/DzFR6mVsxTuGWQiiuiPAtE' }
   ],
   'Проектирование распределенных информационных систем': [
     { title: 'Группа в ТГ', url: 'https://t.me/+jJcsnQgFKsUwYzQy' }
