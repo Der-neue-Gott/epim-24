@@ -27,63 +27,37 @@ cards.forEach(card => {
 
 
 const materials = {
-  'ВЕБ': [
-    { title: 'Практические 1 - 5', url: 'https://t.me/c/2461916459/5' },
-    { title: 'Практические 6 - 7', url: 'https://t.me/c/2461916459/10' },
-    { title: 'Практическая 8', url: 'https://t.me/c/2461916459/32' },
-    { title: 'Теория к практической 8', url: 'https://t.me/c/2461916459/33' }
-  ],
-  'Теория автоматов': [
-    { title: 'Теория и задания', url: 'https://t.me/c/2493950303/44' },
-    { title: 'Задание', url: 'https://t.me/c/2493950303/17' },
-    { title: 'Теория 1', url: 'https://t.me/c/2493950303/45' },
-    { title: 'Теория 2', url: 'https://t.me/c/2493950303/46' },
-    { title: 'Теория 3', url: 'https://t.me/c/2493950303/10' },
-    { title: 'Теория 4', url: 'https://t.me/c/2493950303/11' },
-    { title: 'Лекция 1', url: 'https://t.me/c/2493950303/15' },
-    { title: 'Лекция 2', url: 'https://t.me/c/2493950303/16' },
-    { title: 'Лекция 3', url: 'https://t.me/c/2493950303/13' },
-    { title: 'Лекция 4', url: 'https://t.me/c/2493950303/14' },
-    { title: 'Сети Петри', url: 'https://t.me/c/2493950303/176' },
-    { title: 'Свойства сетей Петри', url: 'https://t.me/c/2493950303/178' },
-    { title: 'Задание сети Петри', url: 'https://t.me/c/2493950303/177' },
-    { title: 'Типовая по вариантам', url: 'https://t.me/c/2209505680/2328' },
-    { title: 'ПО для построения сетей Петри', url: 'https://t.me/c/2209505680/2326' },
-    { title: 'Практическая сетей Петри', url: 'https://t.me/c/2493950303/196' }
+  'Управление проектами': [
+    { title: 'Подключиться к лекции', url: 'https://vk.cc/cIIiI7' },
+    { title: 'Лекция 1 и реферат', url: 'https://t.me/c/2209505680/7070' },
+    { title: 'Лекция 2 и аналитическая работа', url: 'https://t.me/c/2209505680/7303' }
   ],
   'Английский': [
-    { title: 'Книга', url: 'https://t.me/c/2260810691/6' }
+    { title: 'What is computer networking', url: 'https://t.me/c/2260810691/68' },
+    { title: 'Professional English: Use Computer Internet', url: 'https://vk.cc/cIIig1' },
+    { title: 'Аудиозаписи из книги', url: 'https://t.me/c/2260810691/2' },
+    { title: 'Задание 1', url: 'https://t.me/c/2260810691/68' },
+    { title: 'Задание 2', url: 'https://t.me/c/2260810691/76' }
   ],
-  'Обработка сигналов': [
-    { title: 'Полный курс Python', url: 'https://t.me/c/2446319002/13' },
-    { title: 'Машинное обучение', url: 'https://t.me/c/2446319002/17' },
-    { title: 'Личный кабинет', url: 'https://learning.imash.kg/my/' },
-    { title: 'Курс Python', url: 'https://learning.imash.kg/enrol/index.php?id=3' },
-    { title: 'Курс "Машинное обучение"', url: 'https://learning.imash.kg/enrol/index.php?id=2' },
-    { title: 'Книга по сигналам 1', url: 'https://vk.com/wall-54530371_146152' },
-    { title: 'Книга по сигналам 2', url: 'https://t.me/c/2446319002/31' },
-    { title: 'Гитхаб', url: 'https://github.com/verzunov/dsp' },
-    { title: 'Самостоятельная работа 1', url: 'https://learning.imash.kg/mod/assign/view.php?id=513' },
-    { title: 'Видео-история быстрого преобразования Фурье', url: 'https://www.youtube.com/watch?v=eQlSvfUuQNs&t=469s' }
+  'Машинное обучение и анализ данных': [
+    { title: 'Теория и задания', url: 'https://t.me/c/2446319002/95' },
+    { title: 'Anaconda Navigator Requirements', url: 'https://t.me/c/2446319002/96' },
+    { title: 'Презентация с теорией 1', url: 'https://t.me/c/2446319002/97' }
   ],
-  'Организационное поведение': [
-    { title: 'Задание', url: 'https://t.me/c/2209505680/2593' },
-    { title: 'Подключиться к лекции', url: 'https://bit.ly/3ZfppLf' }
+  'Имитационное моделирование': [
+    { title: 'Задание 1', url: 'https://t.me/c/2209505680/7551' },
+    { title: 'Задание 2', url: 'https://t.me/c/2209505680/7744' },
+    { title: 'Установить MatLab и Simulink', url: 'https://rutracker.net/forum/viewtopic.php?t=6510025' }
   ],
-  'Психология': [
-    { title: 'Подключиться к лекции', url: 'https://us04web.zoom.us/j/2481446463?pwd=WmRkRkhweUhTdEJXWGJJQUtLblRNdz09' },
-    { title: 'Присоединиться к курсу (классрум)', url: 'https://classroom.google.com/c/NjAyMzg3MTgwMjYz?cjc=tlysbeo' },
-    { title: 'Материалы (гугл диск)', url: 'https://drive.google.com/drive/u/1/folders/1tGJwQDsqmzdAUtw9tENSWR6-kjRGMssx' },
-    { title: 'Задание 1', url: 'https://classroom.google.com/u/1/c/NjAyMzg3MTgwMjYz/a/NjAyMzg3NDg0NTAx/details' },
-    { title: 'Задание 2', url: 'https://classroom.google.com/u/1/c/NjAyMzg3MTgwMjYz/a/NjAyMzg3NTY2Mjg0/details' },
-    { title: 'Задание 3', url: 'https://classroom.google.com/u/1/c/NjAyMzg3MTgwMjYz/a/NjAyMzg3NTM1MjA5/details' },
-    { title: 'Задание 4 (любая из тем)', url: 'https://classroom.google.com/u/1/c/NjAyMzg3MTgwMjYz/a/NjAyMzg4MTczNDU1/details' }
+  'Системы обработки экспериментальных данных': [
+    { title: 'Лабораторные работы', url: 'https://vk.cc/cIZX9T' }
   ],
-  'Межкультурная коммуникация': [
-    { title: 'Революция ИИ', url: 'https://interpreted.d3.ru/revoliutsiia-iskusstvennogo-intellekta-684922/?sorting=rating' },
-    { title: 'Гарри Поттер и методы рационального мышления', url: 'https://avidreaders.ru/book/garri-potter-i-metody-racionalnogo-myshleniya.html' },
-    { title: 'Ирония судьбы глазами американца', url: 'https://onashem.mediasole.ru/ironiya_sudby_glazami_amerikanca' },
-    { title: 'Подключиться к лекции', url: 'https://goo.su/fVWB2j' }
+  'Методология программной инженерии': [
+    { title: 'Основы программной инженерии (презентация)', url: 'https://t.me/c/2209505680/7508' },
+    { title: 'Группа в ВЦ', url: 'https://chat.whatsapp.com/DzFR6mVsxTuGWQiiuiPAtE' },
+  ],
+  'Проектирование распределенных информационных систем': [
+    { title: 'Группа в ТГ', url: 'https://t.me/+jJcsnQgFKsUwYzQy' }
   ]
 };
 
