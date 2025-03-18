@@ -30,14 +30,18 @@ const materials = {
   'Управление проектами': [
     { title: 'Подключиться к лекции', url: 'https://vk.cc/cIIiI7' },
     { title: 'Лекция 1 и реферат', url: 'https://t.me/c/2209505680/7070' },
-    { title: 'Лекция 2 и аналитическая работа', url: 'https://t.me/c/2209505680/7303' }
+    { title: 'Лекция 2 и аналитическая работа', url: 'https://t.me/c/2209505680/7303' },
+    { title: 'Лекция 3', url: 'https://t.me/c/2209505680/7883' },
+    { title: 'Задачи лекции 3', url: 'https://t.me/c/2209505680/7884' },
+    { title: 'Лекция 4', url: 'https://t.me/c/2209505680/8035' }
   ],
   'Английский': [
     { title: 'What is computer networking', url: 'https://t.me/c/2260810691/68' },
     { title: 'Professional English: Use Computer Internet', url: 'https://vk.cc/cIIig1' },
     { title: 'Аудиозаписи из книги', url: 'https://t.me/c/2260810691/2' },
     { title: 'Задание 1', url: 'https://t.me/c/2260810691/68' },
-    { title: 'Задание 2', url: 'https://t.me/c/2260810691/76' }
+    { title: 'Задание 2', url: 'https://t.me/c/2260810691/76' },
+    { title: 'Задание 3', url: 'https://t.me/c/2260810691/90' }
   ],
   'Машинное обучение и анализ данных': [
     { title: 'Теория и задания', url: 'https://t.me/c/2446319002/95' },
@@ -47,7 +51,9 @@ const materials = {
   'Имитационное моделирование': [
     { title: 'Задание 1', url: 'https://t.me/c/2209505680/7551' },
     { title: 'Задание 2', url: 'https://t.me/c/2209505680/7744' },
-    { title: 'Установить MatLab и Simulink', url: 'https://rutracker.net/forum/viewtopic.php?t=6510025' }
+    { title: 'Задачи для ознакомления с PDE Tool', url: 'https://t.me/c/2209505680/7852' },
+    { title: 'Установить MatLab и Simulink', url: 'https://rutracker.net/forum/viewtopic.php?t=6510025' },
+    { title: 'Задание 3', url: 'https://t.me/c/2209505680/8021' },
   ],
   'Системы обработки экспериментальных данных': [
     { title: 'Лабораторные работы', url: 'https://vk.cc/cIZX9T' }
