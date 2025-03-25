@@ -33,7 +33,10 @@ const materials = {
     { title: 'Лекция 2 и аналитическая работа', url: 'https://t.me/c/2209505680/7303' },
     { title: 'Лекция 3', url: 'https://t.me/c/2209505680/7883' },
     { title: 'Задачи лекции 3', url: 'https://t.me/c/2209505680/7884' },
-    { title: 'Лекция 4', url: 'https://t.me/c/2209505680/8035' }
+    { title: 'Материал к лекции 4', url: 'https://t.me/c/2209505680/8035' },
+    { title: 'Лекция 4', url: 'https://t.me/c/2209505680/8139' },
+    { title: 'Лекция 5', url: 'https://t.me/c/2209505680/8140' },
+    { title: 'Лекция 6', url: 'https://t.me/c/2209505680/8141' }
   ],
   'Английский': [
     { title: 'What is computer networking', url: 'https://t.me/c/2260810691/68' },
@@ -64,6 +67,9 @@ const materials = {
   ],
   'Проектирование распределенных информационных систем': [
     { title: 'Группа в ТГ', url: 'https://t.me/+jJcsnQgFKsUwYzQy' }
+  ],
+  'Методология научного познания': [
+    { title: 'Пример введения ВКР', url: 'https://t.me/c/2209505680/8042' }
   ]
 };
 
