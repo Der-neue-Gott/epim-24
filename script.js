@@ -57,6 +57,7 @@ const materials = {
     { title: 'Задачи для ознакомления с PDE Tool', url: 'https://t.me/c/2209505680/7852' },
     { title: 'Установить MatLab и Simulink', url: 'https://rutracker.net/forum/viewtopic.php?t=6510025' },
     { title: 'Задание 3', url: 'https://t.me/c/2209505680/8021' },
+    { title: 'Установить GPSS World', url: 'https://gpss-world-student-version.software.informer.com/download/' }
   ],
   'Системы обработки экспериментальных данных': [
     { title: 'Лабораторные работы', url: 'https://vk.cc/cIZX9T' }
