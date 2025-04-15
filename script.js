@@ -57,7 +57,9 @@ const materials = {
     { title: 'Задачи для ознакомления с PDE Tool', url: 'https://t.me/c/2209505680/7852' },
     { title: 'Установить MatLab и Simulink', url: 'https://rutracker.net/forum/viewtopic.php?t=6510025' },
     { title: 'Задание 3', url: 'https://t.me/c/2209505680/8021' },
-    { title: 'Установить GPSS World', url: 'https://gpss-world-student-version.software.informer.com/download/' }
+    { title: 'Установить GPSS World', url: 'https://gpss-world-student-version.software.informer.com/download/' },
+    { title: 'Лекция 4', url: 'https://t.me/c/2209505680/8268' },
+    { title: 'Архив с заданием 4', url: 'https://t.me/c/2209505680/8269' }
   ],
   'Системы обработки экспериментальных данных': [
     { title: 'Лабораторные работы', url: 'https://vk.cc/cIZX9T' }
@@ -67,7 +69,8 @@ const materials = {
     { title: 'Группа в ВЦ', url: 'https://chat.whatsapp.com/DzFR6mVsxTuGWQiiuiPAtE' }
   ],
   'Проектирование распределенных информационных систем': [
-    { title: 'Группа в ТГ', url: 'https://t.me/+jJcsnQgFKsUwYzQy' }
+    { title: 'Группа в ТГ', url: 'https://t.me/+jJcsnQgFKsUwYzQy' },
+    { title: 'Лекции и задания', url: 'https://olymp.krsu.edu.kg/course/7106' }
   ],
   'Методология научного познания': [
     { title: 'Пример введения ВКР', url: 'https://t.me/c/2209505680/8042' }
